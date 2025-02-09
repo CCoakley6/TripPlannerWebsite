@@ -1,0 +1,16 @@
+<html>
+
+<head>
+    <title>Collin and Ryan's Trip Planner</title>
+</head>
+
+<body>
+    <header>
+        <h1><a href="{% url 'home' %}">Trip Planner Home</a></h1>
+    </header>
+    <div>
+        {% block content %}
+        {% endblock content %}
+    </div>
+</body>
+</html>
