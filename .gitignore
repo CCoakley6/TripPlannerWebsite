@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.mo
+*.py[co]
+*.pyo
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+
+# If you're using django-debug-toolbar
+debug_toolbar/static/debug_toolbar/css/toolbar.min.css
+
+# If you're using Celery
+celerybeat-schedule
+celerybeat.pid
+
+# If you're using translations
+*.po
+*.mo
+
+# Ignore these because they're only needed for deployments
+local_settings.py
+
+# ENV
+.env
+venv/
+ENV/
+env/
+.envrc
+.idea/
+*.vscode
+*.swp
+
+# .mypy_cache
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# pyright type checker
+.pyright/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Windows:
+*.bat
+*.cmd
+*.com
+*.dll
+*.exe
+*.msi
+*.ps1
+Thumbs.db
+Desktop.ini
+
+# macOS:
+*.dmg
+*.sparsebundle
+.DS_Store
+.AppleDouble
+.LSOverride
+
