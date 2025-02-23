@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Trip List</h1>
+  <ul>
+    {% for trip in trips %}
+      <li>{{ trip.destination }} ({{ trip.start_date }} to {{ trip.end_date }})</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
